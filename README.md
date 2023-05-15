@@ -1,6 +1,5 @@
-# <center> Week 02 - Wheather App </center>
+# <center> Wheather App </center>
 
-### Link : [https://react-week02.vercel.app/](https://react-week02.vercel.app/)
 
 ## What is about?
 
