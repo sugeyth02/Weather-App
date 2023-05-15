@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="icon" href="./assets/img/icon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <img class="nav__icon" src="./assets/img/navIcon.png" alt="Logo" />
+      <div class="searchContainer">
+        <div class="searchBar">
+          <label for="search" class="searchBar__label">search location</label>
+          <input
+            class="searchBar__input"
+            name="search"
+            type="text"
+            placeholder="Search..."
+            autocomplete="off"
+          />
+          <button class="searchBar_button">
+            <img
+              class="button__icon"
+              src="./assets/img/searchIcon.png"
+              alt="Logo"
+            />
+          </button>
+        </div>
+        <div class="autoComplete" id="autoCompleteBox">
+          <ul class="autoComplete__list"></ul>
+        </div>
+      </div>
+      <h1 class="nav__tittle">Week 02</h1>
+    </div>
+    <div class="background">
+      <div class="container">
+        <div class="container__header"></div>
+        <div class="container__weather"></div>
+      </div>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
